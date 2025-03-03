@@ -24,6 +24,8 @@ config/windows_native_icon="res://ui_assets/general/icon.ico"
 
 [autoload]
 
+ModLoaderStore="*res://addons/mod_loader/mod_loader_store.gd"
+ModLoader="*res://addons/mod_loader/mod_loader.gd"
 Util="*res://objects/globals/util.gd"
 ItemService="*res://objects/globals/item_service.gd"
 TaskMgr="*res://addons/task_mgr/task_mgr.gd"
@@ -49,7 +51,7 @@ mouse_cursor/custom_image="res://ui_assets/cursor.png"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/graphedit2/plugin.cfg", "res://addons/intervals/plugin.cfg", "res://addons/node_screenshot_tool/plugin.cfg", "res://addons/script-tabs/plugin.cfg")
+enabled=PackedStringArray("res://addons/graphedit2/plugin.cfg", "res://addons/intervals/plugin.cfg", "res://addons/mod_loader/_export_plugin/plugin.cfg", "res://addons/mod_tool/plugin.cfg", "res://addons/node_screenshot_tool/plugin.cfg", "res://addons/script-tabs/plugin.cfg")
 
 [file_customization]
 
